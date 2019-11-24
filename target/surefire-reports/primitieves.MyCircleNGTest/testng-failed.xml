@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [primitieves.MyCircleNGTest]" verbose="0">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="primitieves.MyCircleNGTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="setUpMethod"/>
+          <include name="tearDownMethod"/>
+          <include name="testRectangle"/>
+        </methods>
+      </class> <!-- primitieves.MyCircleNGTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [primitieves.MyCircleNGTest] -->

@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-primitieves.MyCircleNGTest" class="navigator-link">
+              <span class="suite-name border-passed">primitieves.MyCircleNGTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-primitieves.MyCircleNGTest" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-primitieves.MyCircleNGTest" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-primitieves.MyCircleNGTest" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-primitieves.MyCircleNGTest" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-primitieves.MyCircleNGTest" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-primitieves.MyCircleNGTest" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-primitieves.MyCircleNGTest" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-primitieves.MyCircleNGTest" class="hide-methods passed suite-primitieves.MyCircleNGTest"> (hide)</a> <!-- hide-methods passed suite-primitieves.MyCircleNGTest -->
+                      <a href="#" panel-name="suite-primitieves.MyCircleNGTest" class="show-methods passed suite-primitieves.MyCircleNGTest"> (show)</a> <!-- show-methods passed suite-primitieves.MyCircleNGTest -->
+                    </span>
+                    <div class="method-list-content passed suite-primitieves.MyCircleNGTest">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-primitieves.MyCircleNGTest" title="primitieves.MyCircleNGTest" class="method navigator-link" hash-for-method="testCalcSquare">testCalcSquare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-primitieves.MyCircleNGTest" title="primitieves.MyCircleNGTest" class="method navigator-link" hash-for-method="testGetCenter">testGetCenter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-primitieves.MyCircleNGTest" title="primitieves.MyCircleNGTest" class="method navigator-link" hash-for-method="testGetRadius">testGetRadius</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-primitieves.MyCircleNGTest" title="primitieves.MyCircleNGTest" class="method navigator-link" hash-for-method="testIsInclude">testIsInclude</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-primitieves.MyCircleNGTest" title="primitieves.MyCircleNGTest" class="method navigator-link" hash-for-method="testIsIncludeBorder">testIsIncludeBorder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-primitieves.MyCircleNGTest" title="primitieves.MyCircleNGTest" class="method navigator-link" hash-for-method="testIsIncludeCenter">testIsIncludeCenter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-primitieves.MyCircleNGTest" title="primitieves.MyCircleNGTest" class="method navigator-link" hash-for-method="testIsIncludeNoDot">testIsIncludeNoDot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-primitieves.MyCircleNGTest" title="primitieves.MyCircleNGTest" class="method navigator-link" hash-for-method="testMoveObjComp">testMoveObjComp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-primitieves.MyCircleNGTest" title="primitieves.MyCircleNGTest" class="method navigator-link" hash-for-method="testMoveObjNeg">testMoveObjNeg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-primitieves.MyCircleNGTest" title="primitieves.MyCircleNGTest" class="method navigator-link" hash-for-method="testMoveObjPos">testMoveObjPos</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-primitieves.MyCircleNGTest" title="primitieves.MyCircleNGTest" class="method navigator-link" hash-for-method="testMoveObjZero">testMoveObjZero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-primitieves.MyCircleNGTest" title="primitieves.MyCircleNGTest" class="method navigator-link" hash-for-method="testRectangle">testRectangle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-primitieves.MyCircleNGTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-primitieves.MyCircleNGTest" class="panel primitieves.MyCircleNGTest">
+          <div class="suite-primitieves.MyCircleNGTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">primitieves.MyCircleNGTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCalcSquare">
+                  </a> <!-- testCalcSquare -->
+                  <span class="method-name">testCalcSquare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetCenter">
+                  </a> <!-- testGetCenter -->
+                  <span class="method-name">testGetCenter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetRadius">
+                  </a> <!-- testGetRadius -->
+                  <span class="method-name">testGetRadius</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIsInclude">
+                  </a> <!-- testIsInclude -->
+                  <span class="method-name">testIsInclude</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIsIncludeBorder">
+                  </a> <!-- testIsIncludeBorder -->
+                  <span class="method-name">testIsIncludeBorder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIsIncludeCenter">
+                  </a> <!-- testIsIncludeCenter -->
+                  <span class="method-name">testIsIncludeCenter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIsIncludeNoDot">
+                  </a> <!-- testIsIncludeNoDot -->
+                  <span class="method-name">testIsIncludeNoDot</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMoveObjComp">
+                  </a> <!-- testMoveObjComp -->
+                  <span class="method-name">testMoveObjComp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMoveObjNeg">
+                  </a> <!-- testMoveObjNeg -->
+                  <span class="method-name">testMoveObjNeg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMoveObjPos">
+                  </a> <!-- testMoveObjPos -->
+                  <span class="method-name">testMoveObjPos</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMoveObjZero">
+                  </a> <!-- testMoveObjZero -->
+                  <span class="method-name">testMoveObjZero</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRectangle">
+                  </a> <!-- testRectangle -->
+                  <span class="method-name">testRectangle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-primitieves.MyCircleNGTest-class-passed -->
+        </div> <!-- panel primitieves.MyCircleNGTest -->
+        <div panel-name="test-xml-primitieves.MyCircleNGTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;primitieves.MyCircleNGTest&quot; verbose=&quot;0&quot;&gt;
+  &lt;test name=&quot;Command line test&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;primitieves.MyCircleNGTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- primitieves.MyCircleNGTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-primitieves.MyCircleNGTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for primitieves.MyCircleNGTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-primitieves.MyCircleNGTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for primitieves.MyCircleNGTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-primitieves.MyCircleNGTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for primitieves.MyCircleNGTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_primitieves.MyCircleNGTest');
+function tableData_primitieves.MyCircleNGTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testCalcSquare')
+data.setCell(0, 2, 'primitieves.MyCircleNGTest')
+data.setCell(0, 3, 5);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testRectangle')
+data.setCell(1, 2, 'primitieves.MyCircleNGTest')
+data.setCell(1, 3, 5);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testMoveObjZero')
+data.setCell(2, 2, 'primitieves.MyCircleNGTest')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testIsIncludeCenter')
+data.setCell(3, 2, 'primitieves.MyCircleNGTest')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testMoveObjPos')
+data.setCell(4, 2, 'primitieves.MyCircleNGTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testIsIncludeBorder')
+data.setCell(5, 2, 'primitieves.MyCircleNGTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testMoveObjNeg')
+data.setCell(6, 2, 'primitieves.MyCircleNGTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testIsInclude')
+data.setCell(7, 2, 'primitieves.MyCircleNGTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testMoveObjComp')
+data.setCell(8, 2, 'primitieves.MyCircleNGTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testGetRadius')
+data.setCell(9, 2, 'primitieves.MyCircleNGTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testGetCenter')
+data.setCell(10, 2, 'primitieves.MyCircleNGTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testIsIncludeNoDot')
+data.setCell(11, 2, 'primitieves.MyCircleNGTest')
+data.setCell(11, 3, 0);
+window.suiteTableData['primitieves.MyCircleNGTest']= { tableData: data, tableDiv: 'times-div-primitieves.MyCircleNGTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 ms</span>
+              <div id="times-div-primitieves.MyCircleNGTest">
+              </div> <!-- times-div-primitieves.MyCircleNGTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-primitieves.MyCircleNGTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for primitieves.MyCircleNGTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-primitieves.MyCircleNGTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-primitieves.MyCircleNGTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">primitieves.MyCircleNGTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCalcSquare</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testGetCenter</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetRadius</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIsInclude</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testIsIncludeBorder</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIsIncludeCenter</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIsIncludeNoDot</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMoveObjComp</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">45 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">45 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">45 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testMoveObjNeg</span>
+                <span class="method-start">45 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMoveObjPos</span>
+                <span class="method-start">45 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testMoveObjZero</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRectangle</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">55 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">55 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
